@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Search = ({ searchTerm, setSearchTerm}) => {
+  // Props should never be changed by the child component //We dont mutate the state, we only do so using the setterFunction
   return (
     <div className="search">
         <div>
